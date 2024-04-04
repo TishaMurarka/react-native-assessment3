@@ -1,0 +1,25 @@
+{
+  "smart_gadgets": [
+    {
+      "id": 1,
+      "name": "Smart Bulb",
+      "type": "lighting",
+      "status": "on",
+      "brightness": 80,
+      "color": "#ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Smart Thermostat",
+      "type": "temperature",
+      "current_temperature": 72,
+      "target_temperature": 70
+    },
+    {
+      "id": 3,
+      "name": "Smart Lock",
+      "type": "security",
+      "status": "locked"
+    }
+  ]
+}

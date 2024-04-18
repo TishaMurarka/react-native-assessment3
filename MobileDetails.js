@@ -11,13 +11,10 @@ const MobileDetails = props => {
     <Item>
       <ItemSection>
         <View style={headContainer}>
-          <Text style={headerText.text}>Brand: {mobile.brand}</Text>
-          <Text style={headerText.text}>Model: {mobile.model}</Text>
+          <Text style={headerText.text}>Brand: {mobile.name}</Text>
+          <Text style={headerText.text}>Model: {mobile.type}</Text>
           <Text style={headerText.text}>URL: {mobile.url}</Text>
         </View>
-      </ItemSection>
-      <ItemSection>
-        <Image style={imageStyle} source={{uri: mobile.image}} />
       </ItemSection>
     </Item>
   );

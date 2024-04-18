@@ -9,7 +9,7 @@ export class MobileList extends Component {
 
   componentDidMount() {
     axios
-      .get('https://my-json-server.typicode.com/Raja2248s/mobile/smartphones')
+      .get('https://github.com/TishaMurarka/fake_rest_api/blob/main/db.json')
       .then(response => {
         this.setState({mobilelist: response.data});
       });
@@ -18,8 +18,8 @@ export class MobileList extends Component {
   //   return this.state.mobilelist.map((mobile, index) => {
   //     return (
   //       <View key={index}>
-  //         <Text>Brand: {mobile.brand}</Text>
-  //         <Text>Model: {mobile.model}</Text>
+  //         <Text>Brand: {mobile.name}</Text>
+  //         <Text>Model: {mobile.type}</Text>
   //         <Text>URL: {mobile.url}</Text>
   //         {/* Render other details as needed */}
   //       </View>
